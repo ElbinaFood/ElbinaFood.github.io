@@ -1,11 +1,6 @@
-/*!
- * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Lora';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65)), to(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
   background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -238,7 +233,8 @@ p {
 }
 
 .btn {
-  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+          box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
 }
 
 .btn-primary {
@@ -254,3 +250,4 @@ p {
 .font-weight-light {
   font-weight: 100 !important;
 }
+/*# sourceMappingURL=elbina.css.map */
